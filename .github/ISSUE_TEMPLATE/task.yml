@@ -1,0 +1,29 @@
+name: Task
+description: 開発タスクの管理
+title: "[Task]: "
+labels:
+  - task
+
+body:
+  - type: input
+    id: objective
+    attributes:
+      label: タスク名
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: 作業内容
+    validations:
+      required: true
+
+  - type: textarea
+    id: done
+    attributes:
+      label: 完了条件
+      placeholder: |
+        - [ ] API作成
+        - [ ] テスト作成
+        - [ ] ドキュメント更新
