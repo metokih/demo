@@ -1,0 +1,29 @@
+name: Feature Request
+description: 新機能の提案
+title: "[Feature]: "
+labels:
+  - enhancement
+
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: 提案内容
+      placeholder: ユーザー検索機能を追加したい
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 解決したい課題
+      description: この機能が必要な理由
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 提案する解決方法
+    validations:
+      required: true
