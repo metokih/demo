@@ -1,0 +1,27 @@
+name: Improvement
+description: 既存機能の改善提案
+title: "[Improve]: "
+labels:
+  - improvement
+
+body:
+  - type: textarea
+    id: current
+    attributes:
+      label: 現状の課題
+      description: 現在何が不便か記載してください
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 改善案
+      description: 提案する改善内容を記載してください
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: 期待される効果
