@@ -1,5 +1,5 @@
 ---
-name: prsummary
+name: projectsummary
 description: Projectの概要を説明する
 agent: agent
 ---
