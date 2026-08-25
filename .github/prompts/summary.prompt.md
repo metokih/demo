@@ -1,7 +1,7 @@
 ---
 name: summary
 description: Projectの概要を説明する
-agent: agent
+mode: agent
 ---
 
 このプロジェクトの概要を docs/summary.mdに書き出してください
